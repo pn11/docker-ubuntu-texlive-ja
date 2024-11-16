@@ -2,9 +2,8 @@
 # Released under the MIT license
 # https://opensource.org/licenses/MIT
 
-FROM ubuntu:18.04
+FROM ubuntu:20.04
 
-MAINTAINER Futa HIRAKOBA
 ENV DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update && apt-get install -y \
