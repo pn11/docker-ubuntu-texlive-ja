@@ -2,13 +2,14 @@
 # Released under the MIT license
 # https://opensource.org/licenses/MIT
 
-FROM ubuntu:20.04
+FROM ubuntu:24.04
 
 ENV DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update && apt-get install -y \
     xdvik-ja \ 
     evince \
+    texlive-lang-japanese \
     texlive-lang-cjk \
     latexmk \
     language-pack-ja \
