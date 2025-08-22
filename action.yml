@@ -1,0 +1,13 @@
+name: "Ubuntu texlive-ja"
+author: "pn11"
+description: "texlive-ja on Ubuntu"
+inputs:
+  input_name:
+    description: "input project name"
+    required: true
+runs:
+  using: "docker"
+  image: "Dockerfile"
+branding:
+  icon: "book-open"
+  color: "orange"

@@ -36,4 +36,4 @@ WORKDIR /workdir
 
 VOLUME ["/workdir"]
 
-CMD ["bash"]
+CMD ["latexmk $INPUT_INPUT_NAME"]

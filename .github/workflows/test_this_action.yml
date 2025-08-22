@@ -1,0 +1,10 @@
+name: Test
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Build
+        uses: pn11/docker-ubuntu-texlive-ja@main
+        with:
+          input_name: sample/sample
