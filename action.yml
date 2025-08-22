@@ -5,6 +5,9 @@ inputs:
   input_name:
     description: "input project name"
     required: true
+  work_dir:
+    description: "work_dir"
+    required: true
 runs:
   using: "docker"
   image: "Dockerfile"
