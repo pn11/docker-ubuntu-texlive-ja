@@ -36,4 +36,5 @@ WORKDIR /workdir
 
 VOLUME ["/workdir"]
 
-CMD ["latexmk $INPUT_INPUT_NAME"]
+#CMD ["latexmk $INPUT_INPUT_NAME"]
+CMD ["env"]
